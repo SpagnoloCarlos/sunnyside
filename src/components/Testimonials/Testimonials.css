@@ -1,0 +1,24 @@
+.testimonials {
+  padding: 160px 0;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 96px;
+}
+
+.testimonials-title {
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  color: var(--color-blue-grayish-light);
+}
+
+.testimonials-card-container {
+  display: flex;
+  align-items: stretch;
+  gap: 32px;
+}
