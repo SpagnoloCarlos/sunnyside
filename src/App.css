@@ -64,3 +64,10 @@ main {
 .hero-arrow {
   margin-top: 48px;
 }
+
+/*---------- Mobile ---------*/
+@media (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+}

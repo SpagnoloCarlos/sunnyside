@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Gallery from "./components/Gallery/Gallery";
+import Menu from "./components/Menu/Menu";
 import Section from "./components/Section/Section";
 import Testimonials from "./components/Testimonials/Testimonials";
 
@@ -19,6 +20,7 @@ function App() {
                 <li>Contact</li>
               </ul>
             </nav>
+            <Menu />
           </header>
           <h1 className="title">We are creatives</h1>
           <img
