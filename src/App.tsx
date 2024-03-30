@@ -44,7 +44,7 @@ function App() {
             alt="Transform your brand"
           />
         </Section>
-        <Section>
+        <Section className="section-reverse">
           <img
             src="../src/assets/images/pics/image-stand-out.jpg"
             alt="Stand out to the right audience"
@@ -56,10 +56,12 @@ function App() {
               photographers, videographers, and copywriters, we'll build and
               extend your brand in digital places.
             </p>
-            <a href="#">Learn more</a>
+            <a href="#" className="learn-more-red">
+              Learn more
+            </a>
           </article>
         </Section>
-        <Section>
+        <Section className="section-reverse">
           <div className="card1">
             <h2>Graphic Design</h2>
             <p>

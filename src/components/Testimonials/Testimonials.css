@@ -22,3 +22,17 @@
   align-items: stretch;
   gap: 32px;
 }
+
+/*---------- Mobile ----------*/
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 64px 0;
+    gap: 64px;
+  }
+  .testimonials-card-container {
+    flex-direction: column;
+  }
+  .testimonials-card-container {
+    gap: 64px;
+  }
+}

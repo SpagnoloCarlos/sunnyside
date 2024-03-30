@@ -58,6 +58,10 @@
   transition: opacity 0.2s ease-out;
 }
 
+.section > article > a.learn-more-red::after {
+  background-color: var(--color-red);
+}
+
 .section > img {
   width: 50%;
 }
@@ -110,4 +114,37 @@
 
 .section .card2 > p {
   color: var(--color-blue);
+}
+
+/*--------- Mobile ---------*/
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+  .section.section-reverse {
+    flex-direction: column;
+  }
+  .section > img {
+    width: 100%;
+  }
+  .section > article {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 64px 32px;
+  }
+  .section > div {
+    width: 100%;
+    aspect-ratio: 750 / 1200;
+    padding-bottom: 48px;
+  }
+  .section .card1 {
+    background-image: url("../src/assets/images/pics/image-graphic-design-mobile.jpg");
+  }
+  .section .card2 {
+    background-image: url("../src/assets/images/pics/image-photography-mobile.jpg");
+  }
+  .section > div > p {
+    margin: 0 32px;
+  }
 }

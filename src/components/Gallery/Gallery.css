@@ -6,6 +6,25 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
-.gallery > img {
+.gallery > .gallery-desktop {
   width: 100%;
+}
+
+.gallery > .gallery-mobile {
+  display: none;
+}
+
+/*----------- Mobile ----------*/
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content;
+  }
+  .gallery > .gallery-desktop {
+    display: none;
+  }
+  .gallery > .gallery-mobile {
+    display: block;
+    width: 100%;
+  }
 }

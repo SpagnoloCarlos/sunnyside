@@ -70,4 +70,12 @@ main {
   .navigation {
     display: none;
   }
+  .hero {
+    background-image: url("../src/assets/images/pics/image-header-mobile.jpg");
+    aspect-ratio: 750 / 1076;
+    gap: 32px;
+  }
+  .title {
+    text-align: center;
+  }
 }
