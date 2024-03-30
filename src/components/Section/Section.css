@@ -93,7 +93,7 @@
 }
 
 .section .card1 {
-  background-image: url("../src/assets/images/pics/image-graphic-design.jpg");
+  background-image: url("../../assets/images/pics/image-graphic-design.jpg");
 }
 
 .section .card1 > h2 {
@@ -105,7 +105,7 @@
 }
 
 .section .card2 {
-  background-image: url("../src/assets/images/pics/image-photography.jpg");
+  background-image: url("../../assets/images/pics/image-photography.jpg");
 }
 
 .section .card2 > h2 {
@@ -139,10 +139,10 @@
     padding-bottom: 48px;
   }
   .section .card1 {
-    background-image: url("../src/assets/images/pics/image-graphic-design-mobile.jpg");
+    background-image: url("../../assets/images/pics/image-graphic-design.jpg");
   }
   .section .card2 {
-    background-image: url("../src/assets/images/pics/image-photography-mobile.jpg");
+    background-image: url("../../assets/images/pics/image-photography-mobile.jpg");
   }
   .section > div > p {
     margin: 0 32px;

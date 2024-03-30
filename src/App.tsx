@@ -4,6 +4,10 @@ import Gallery from "./components/Gallery/Gallery";
 import Menu from "./components/Menu/Menu";
 import Section from "./components/Section/Section";
 import Testimonials from "./components/Testimonials/Testimonials";
+import headerLogo from "./assets/images/logos/logo.svg";
+import arrow from "./assets/images/icons/icon-arrow-down.svg";
+import transform from "./assets/images/pics/image-transform.jpg";
+import standout from "./assets/images/pics/image-stand-out.jpg";
 
 function App() {
   return (
@@ -11,7 +15,7 @@ function App() {
       <main>
         <section className="hero">
           <header className="header">
-            <img src="../src/assets/images/logos/logo.svg" alt="Sunnyside" />
+            <img src={headerLogo} alt="Sunnyside" />
             <nav className="navigation">
               <ul>
                 <li>About</li>
@@ -23,11 +27,7 @@ function App() {
             <Menu />
           </header>
           <h1 className="title">We are creatives</h1>
-          <img
-            className="hero-arrow"
-            src="../src/assets/images/icons/icon-arrow-down.svg"
-            alt="Arrow"
-          />
+          <img className="hero-arrow" src={arrow} alt="Arrow" />
         </section>
         <Section>
           <article>
@@ -39,16 +39,10 @@ function App() {
             </p>
             <a href="#">Learn more</a>
           </article>
-          <img
-            src="../src/assets/images/pics/image-transform.jpg"
-            alt="Transform your brand"
-          />
+          <img src={transform} alt="Transform your brand" />
         </Section>
         <Section className="section-reverse">
-          <img
-            src="../src/assets/images/pics/image-stand-out.jpg"
-            alt="Stand out to the right audience"
-          />
+          <img src={standout} alt="Stand out to the right audience" />
           <article>
             <h2>Stand out to the right audience</h2>
             <p>

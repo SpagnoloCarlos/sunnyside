@@ -11,12 +11,8 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -35,10 +31,11 @@ Users should be able to:
 
 ### Built with
 
+- [Vite.js](https://vitejs.dev/) - React framework
+- [React](https://reactjs.org/) - JS library
+- [TypeScript](https://www.typescriptlang.org/) - Programming language
 - Flexbox
 - CSS Grid
-- [React](https://reactjs.org/) - JS library
-- [Vite.js](https://vitejs.dev/) - React framework
 
 ### What I learned
 
@@ -65,7 +62,7 @@ interface ICard {
 ## Author
 
 - Website - [Carlos Andres Spagnolo](https://spagnolo-carlos.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/SpagnoloCarlos)
+- Frontend Mentor - [@SpagnoloCarlos](https://www.frontendmentor.io/profile/SpagnoloCarlos)
 - LinkedIn - [Carlos Andres Spagnolo](https://www.linkedin.com/in/carlos-spagnolo-andres/)
 - Instagram - [@carlos.spagnolo.dev](https://www.instagram.com/carlos.spagnolo.dev/)
 - Email - [carlos.andres.spagnolo@gmail.com](mailto:your.email@gmail.com)
